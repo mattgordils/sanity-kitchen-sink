@@ -1,7 +1,7 @@
 const env = process.env.NODE_ENV || 'development'
 
 export default function resolvePreviewUrl(document) {
-  const baseUrl = env === 'development' ? 'http://localhost:8000' : 'https://sanity-kitchen-sink-web-q31qefoe.netlify.app'
+  const baseUrl = env === 'development' ? 'http://localhost:8000' : 'https://preview-sanitykitchensinkmain78452.gtsb.io/'
   switch (document._type) {
     case 'route':
       if (!document.slug || !document.slug.current) {

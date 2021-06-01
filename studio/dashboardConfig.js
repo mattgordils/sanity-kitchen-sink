@@ -2,6 +2,10 @@ export default {
   widgets: [
     {name: 'structure-menu'},
     {
+      name: 'gatsby',
+      options: { sites: [{ siteUrl: "https://preview-sanitykitchensinkmain78452.gtsb.io/" }] },
+    },
+    {
       name: 'project-info',
       options: {
         __experimental_before: [
